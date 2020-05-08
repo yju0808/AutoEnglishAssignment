@@ -4,7 +4,7 @@
 
 
 main.py는 소스코드입니다   
-사용하시려면 AutoEnglishAssignment.zip 다운받고 압축푸시고 설명서보고 셋팅진행하시면 됩니다
+사용하시려면 AutoEnglishAssignment.zip 다운받고 압축푸시고 설명서보고 사용하시면 됩니다
 
 
 
