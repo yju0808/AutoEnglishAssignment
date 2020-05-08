@@ -6,7 +6,7 @@ import sys
 
 print("자동영어과제 - Developed by YJU")
 print("개발자 연락처 : yju0808@naver.com - 버그, 오류 등등 발견시 제보해주세요")
-print("버젼 : B0 - 베타테스터 버젼\n\n")
+print("버젼 : B1 - 베타테스터 버젼\n\n")
 
 print("자동영어과제를 시작합니다\n")
 
@@ -74,6 +74,10 @@ for word in words:
     mean = GetMeaning(word)
     exSentence = GetSentence(word)
     result = result + "{}. {} : {}\n   {}\n\n".format(count,word,mean,exSentence)
+
+    print("{}/{} 완료".format(count,len(words)))
+
+    count+=1
 
 
 
